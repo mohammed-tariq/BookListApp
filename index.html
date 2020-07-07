@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book List App</title>
+    <link rel="stylesheet" href="booklistapp.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <h1>Book List App</h1>
+    </header>
+    <div class="main">
+        <label for="bname">Title</label>
+        <br>
+        <br>
+        <input type="text" id="bname">
+        <br>
+        <br>
+        <label for="author">Author</label>
+        <br>
+        <br>
+        <input type="text" id="author">
+        <br>
+        <br>
+        <label for="bid">Book ID</label>
+        <br>
+        <br>
+        <input type="text" id="bid">
+        <br><br>
+        <br>
+
+        <input type="submit" value="Add Book" id="btn">
+    </div>
+    <br>
+    <br>
+    <div class="result">
+    <table>
+        <tr>
+        <th>Book name</th>
+        <th>author</th>
+        <th>Book id</th>
+        <hr>
+        </tr>
+    </table>
+    <input type="button" value="Clear All" id="clrbtn">
+    </div>
+    <script src="booklistapp.js"></script>
+</body>
+</html>

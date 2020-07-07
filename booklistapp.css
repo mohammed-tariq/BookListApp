@@ -1,0 +1,40 @@
+body{
+background-color: antiquewhite;
+}
+
+
+header{
+    background-color: aqua;
+    text-align: center;
+}
+
+.main
+{
+    background-color: rgb(198, 232, 233);
+    display: flex;
+    width: 450px;
+    height: 300px;
+    margin: auto;
+}
+table{
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    padding: 10px;
+}
+
+.main{
+    display: block;
+    padding: 50px;
+}
+
+input{
+    width: 100%;
+}
+
+#btn{
+    background-color: aquamarine;
+}
+#clrbtn{
+    background-color: aquamarine;
+}
